@@ -92,7 +92,7 @@ html {
 }
 .slider_conteiner {
   position: absolute;
-  width: 100%;
+  width: 770px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -149,7 +149,7 @@ html {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   line-height: 1.367;
-  text-align: center;
+  text-align: left;
   margin-bottom: 8px;
 }
 .slider-text {
@@ -159,7 +159,7 @@ html {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   line-height: 1.296;
-  text-align: center;
+  text-align: left;
 }
 .slider_img::before {
   content: "";
@@ -189,12 +189,11 @@ html {
 }
 .section-title::after {
   display: block;
-  margin: 0px auto;
+  margin: 32px auto 0px;
   content: "";
   height: 7px;
   width: 164px;
   background-color: #1abc9c;
-  margin-top: 32px;
 }
 
 .colection-item {
@@ -298,11 +297,11 @@ img {
   background-color: rgba(255, 255, 255, 0.44);
 }
 .colection-item:hover .icon-button,
-.colection-item:hover .card-container-overlay::before {
+.colection-item:hover .overlay-wrapper::before {
   display: block;
 }
 
-.card-container-overlay::before {
+.overlay-wrapper::before {
   position: absolute;
   content: "";
   display: none;
